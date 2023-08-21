@@ -1,0 +1,13 @@
+import React from "react";
+
+const Navbar = () => {
+  return (
+    <div className="h-[60px] bg-white my-4 rounded-lg flex justify-center items-center gap-4 text-xl font-medium">
+      <img src="./logos_firebase.svg" alt="logo" />
+
+      <h1 className=" text-black">FireBase Contact App</h1>
+    </div>
+  );
+};
+
+export default Navbar;
